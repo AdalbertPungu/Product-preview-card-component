@@ -48,19 +48,21 @@ body {
 .product {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   background-color: var(--White);
   border-radius: 10px;
 }
 
 .product__img {
-  width: 250px;
+  object-fit: cover;
+  width: 260px;
+  height: 100%;
   border-radius: 10px 0 0 10px;
 }
 
 .product__card-details {
   padding: 20px;
-  width: 245px;
+  width: 260px;
 }
 
 .product__type {
